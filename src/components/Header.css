@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  background-color: #4a90e2;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 42px;
+}
+
+.navbar__logo {
+  height: 24px;
+}
+
+.navbar__account {
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.navbar__photo {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
